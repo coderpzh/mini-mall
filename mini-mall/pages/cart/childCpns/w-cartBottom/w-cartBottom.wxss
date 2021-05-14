@@ -1,0 +1,38 @@
+/* pages/cart/childCpns/w-cartBottom/w-cartBottom.wxss */
+.bottom-bar{
+  background-color: #eeeeee;
+  height: 88rpx;
+  line-height: 88rpx;
+  padding-left: 20rpx;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9;
+  box-shadow: 0 -4rpx 6rpx rgba(0, 0, 0, .2);
+}
+
+.check{
+  display: inline-block;
+  position: relative;
+  top: 10rpx;
+}
+
+.select{
+  padding: 0 30rpx 0 10rpx;
+  font-size: 34rpx;
+  color: #888;
+}
+
+.price{
+  color: #666;
+  font-size: 38rpx;
+}
+
+.counter{
+  float: right;
+  width: 30%;
+  background-color: #ff4500;
+  color: #fff;
+  text-align: center;
+}

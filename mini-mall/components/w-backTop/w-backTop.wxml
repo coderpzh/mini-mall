@@ -1,0 +1,3 @@
+<!--components/w-backTop/w-backTop.wxml-->
+<image src="/assets/common/top.png" class="back-top bt-class" 
+        catchtap="backTop" hidden="{{isHidden}}"/>

@@ -1,0 +1,34 @@
+/* pages/detail/childCnps/w-dTable/w-dTable.wxss */
+.table{
+  padding: 20rpx 40rpx 40rpx 40rpx;
+  font-size: 32rpx;
+  border-bottom: 10rpx solid #f2f5f8;
+}
+
+.size{
+  border-bottom: 5rpx solid rgba(100,100,100,.1);
+}
+
+.item{
+  display: flex;
+  padding: 20rpx 0;
+  border-bottom: 2rpx solid rgba(100,100,100,.1);
+}
+
+.size-text{
+  flex: 1;
+}
+
+.info{
+  padding-top: 10rpx;
+}
+
+.info-text1{
+  flex: 3;
+}
+
+.info-text2{
+  flex: 7;
+  color: #eb4868;
+}
+

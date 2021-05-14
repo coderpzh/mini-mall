@@ -1,0 +1,12 @@
+/* components/w-checkBtn/w-checkBtn.wxss */
+.img{
+  border-radius: 50%;
+  border: 6rpx solid #ccc;
+  width: 36rpx;
+  height: 36rpx;
+}
+
+.checkActive{
+  background-color: #ff8198;
+  border: 6rpx solid #ff8198;
+}

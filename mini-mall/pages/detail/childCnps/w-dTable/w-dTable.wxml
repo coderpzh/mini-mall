@@ -1,0 +1,21 @@
+<!--pages/detail/childCnps/w-dTable/w-dTable.wxml-->
+<view class="table">
+  <view class="size">
+    <view class="item" wx:for="{{params.sizes[0]}}" wx:key="index" wx:for-item="arr">
+      <text wx:for="{{arr}}" wx:for-index="num" wx:key="num" class="size-text">{{item}}</text>
+    </view>
+
+    <!-- 有些商品只有sizes[0] -->
+    <view class="item" wx:for="{{params.sizes[1]}}" wx:key="index" wx:for-item="arr" 
+      wx:if="{{params.sizes[1]}}">
+      <text wx:for="{{arr}}" wx:for-index="num" wx:key="num" class="size-text">{{item}}</text>
+    </view>
+  </view>
+
+  <view class="info">
+    <view class="item" wx:for="{{params.infos}}" wx:key="index">
+      <text class="info-text1">{{item.key}}</text>
+      <text class="info-text2">{{item.value}}</text>
+    </view>
+  </view>
+</view>

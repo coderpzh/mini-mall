@@ -1,0 +1,4 @@
+<!--components/w-checkBtn/w-checkBtn.wxml-->
+<view class="check">
+	<image src="/assets/common/tick.svg" class="img {{checked ? 'checkActive' : ''}}"/>
+</view>

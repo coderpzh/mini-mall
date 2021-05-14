@@ -1,0 +1,17 @@
+/* pages/home/home.wxss */
+.height{
+  height: 400rpx;
+  width: 100%;
+}
+
+.bottom{
+  bottom: 20rpx;
+}
+
+.tab02{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}

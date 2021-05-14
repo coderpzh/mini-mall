@@ -1,0 +1,12 @@
+<!--pages/cart/childCpns/w-cartBottom/w-cartBottom.wxml-->
+<view class="bottom-bar">
+		
+		<w-checkBtn class="check" catchtap="allCheck" checked="{{checked}}"/>
+		
+		<text class="select">全选</text>
+		
+		<text class="price">合计:￥{{totalPrice}}</text>
+		
+		<text class="counter">去计算({{cartLength}})</text>
+		
+	</view>

@@ -1,0 +1,7 @@
+<!--pages/home/childCpns/recomd/w-recomd.wxml-->
+<view class="recomd">
+  <view wx:for="{{list}}" wx:key="index" class="recomd-item">
+    <image src="{{item.image}}" mode="widthFix" class="recomd-img"/>
+    <text>{{textList[index]}}</text>
+  </view>
+</view>

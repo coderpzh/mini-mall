@@ -1,0 +1,10 @@
+<!--pages/detail/childCnps/w-dImg/w-dImg.wxml-->
+<view class="dImg">
+		<view class="dImg_text">{{detailInfo.desc}}</view>
+		<view class="dImg_key">{{detailInfo.detailImage[0].key}}</view>
+		
+		<view wx:for="{{detailInfo.detailImage[0].list}}" wx:key="index" class="detail-img">
+			<image class="dImg_img" src="{{item}}" mode="widthFix" bindload="imgLoad"/>
+		</view>
+	
+	</view>

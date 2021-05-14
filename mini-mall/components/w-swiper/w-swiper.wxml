@@ -1,0 +1,12 @@
+<!--pages/home/childCpn/w-swiper/w-swiper.wxml-->
+<swiper autoplay indicator-dots circular interval="{{3000}}" class="sw-class"
+        indicator-active-color="rgba(255,255,255,.8)">
+  <block wx:for="{{list}}" wx:key="index">
+    <swiper-item>
+      <image src="{{item}}" mode="{{_mode}}" bindload="eventTap" style="width:100%;height:100%"/>
+    </swiper-item>
+  </block>
+</swiper>
+<!-- item || item.image 不行，因为home的item是对象，不是图片 -->
+<!-- item.image || item 可以，当判断到home的item中没有image，就执行后面的item -->
+<!-- 另外的解决方法：将首页图片放进数组再传过来，就可以直接{{item}} -->

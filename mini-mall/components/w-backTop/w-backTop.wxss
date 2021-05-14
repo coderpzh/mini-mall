@@ -1,0 +1,8 @@
+/* components/w-backTop/w-backTop.wxss */
+.back-top{
+  width: 90rpx;
+  height: 90rpx;
+  position: fixed;
+  right: 20rpx;
+  z-index: 9;
+}

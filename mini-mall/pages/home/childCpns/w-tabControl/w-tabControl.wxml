@@ -1,0 +1,11 @@
+<!--pages/home/childCpns/tabControl/tabControl.wxml-->
+<view class="tab" hidden="{{isHidden}}">
+  <view wx:for="{{tabList}}" wx:key="index" bindtap="handleTap"
+        class="tab-item " data-index="{{index}}">
+    <text class="{{tabIndex == index ? 'active':''}}" >{{item}}</text>
+  </view>
+</view>
+
+<!-- 注意：在小程序中，事件监听不能传数据 -->
+<!-- 要用data-*方式传到事件对象event的target.dataset中 -->
+<!-- 动态加类名active要加引号 -->

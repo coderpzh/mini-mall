@@ -1,0 +1,13 @@
+<!--pages/home/home.wxml-->
+<w-swiper list="{{banners}}" sw-class="height" bind:imgLoad="imgLoad"/>
+
+<w-recomd list="{{recomds}}"/>
+
+<view><image src="/assets/home/popular_bg.jpg" style="width:100%;" mode="widthFix"/></view>
+
+<w-tabControl catch:tabClick="changeGoods" id="tab1"/>
+<w-tabControl catch:tabClick="changeGoods" class="tab02" id="tab2" isHidden="{{isTab2}}"/>
+
+<w-goodsList goodsList="{{goods[goodsType].list}}"/>
+
+<w-backTop isHidden="{{!isBacktop}}" catch:_backTop="backTop" bt-class="bottom"/>

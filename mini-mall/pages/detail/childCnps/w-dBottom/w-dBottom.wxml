@@ -1,0 +1,25 @@
+<!--pages/detail/childCnps/w-dBottom/w-dBottom.wxml-->
+<view class="bottom-bar">
+		<view class="bar-one">
+			<view class="bar-item">
+				<view class="icon-one"></view>
+				<text>客服</text>
+			</view>
+			
+			<view class="bar-item">
+				<view  class="icon-two"></view>
+				<text>店铺</text>
+			</view>
+			
+			<view class="bar-item">
+				<view  class="icon-three"></view>
+				<text>收藏</text>
+			</view>
+		</view>
+		
+		<view class="bar-two">
+			<view class="bar-text text1" catchtap="cartClick">加入购物车</view>
+			<view class="bar-text text2">购买</view>
+		</view>
+		
+	</view>

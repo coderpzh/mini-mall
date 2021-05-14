@@ -1,0 +1,21 @@
+<!--pages/detail/childCnps/w-dComment/w-dComment.wxml-->
+<wxs module='time' src='/utils/comment.wxs'></wxs>
+<view class="comment">
+		<view class="title">
+			<text>用户评价</text>
+			<text class="arrow-right"></text>
+			<text class="more">更多</text>
+		</view>
+		
+		<view class="user">
+			<image src="{{detailComment.img}}" class="user-img" mode="widthFix"/>
+			<text class="user-text">{{detailComment.name}}</text>
+		</view>
+		
+		<view class="text1">{{detailComment.content}}</view>
+		
+		<view class="text2">
+			<text>{{time.dateFormat(detailComment.time*1000,'yyyy-MM-dd')}}</text>
+			<text class="text02">{{detailComment.style}}</text>
+		</view>
+	</view>

@@ -1,0 +1,23 @@
+<!--pages/detail/childCnps/w-dText/w-dText.wxml-->
+<view class="detail-text">
+		<view class="title">{{goodsInfo.title}}</view>
+		
+		<view class="price">
+			<text class="price1">{{goodsInfo.newPrice}}</text>
+			<text class="price2">{{goodsInfo.oldPrice}}</text>
+			<text class="price3">{{goodsInfo.discount}}</text>
+		</view>
+		
+		<view class="text-one">
+			<text class="text-sell text-sell1">{{goodsInfo.columns[0]}}</text>
+			<text class="text-sell text-sell2">{{goodsInfo.columns[1]}}</text>
+			<text class="text-sell text-sell3"> {{goodsInfo.services[3].name}}</text>
+		</view>
+		
+		<view class="text-two">
+			<text class="text-serv">{{goodsInfo.services[0].name}}</text>
+			<text class="text-serv">{{goodsInfo.services[1].name}}</text>
+			<text class="text-serv">{{goodsInfo.services[2].name}}</text>
+		</view>
+		
+	</view>

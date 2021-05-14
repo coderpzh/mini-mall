@@ -1,0 +1,9 @@
+/* pages/detail/detail.wxss */
+.height{
+  height: 800rpx;
+  width: 100%;
+}
+
+.bottom{
+  bottom: 130rpx;
+}

@@ -1,0 +1,29 @@
+/* pages/detail/childCnps/w-dImg/w-dImg.wxss */
+.dImg{
+  border-bottom: 10rpx solid #f2f5f8;
+  padding-bottom: 40rpx;
+}
+
+.detail-img{
+  width: 100%;
+}
+
+.dImg_img{
+  width: 100%;
+  padding: 5rpx 0;
+}
+
+.dImg_text{
+  font-size: 28rpx;
+  padding: 20rpx;
+  color: #878484;
+  margin: 20rpx 0;
+}
+
+.dImg_key{
+  font-size: 32rpx;
+  padding: 10rpx;
+  border-top: 20rpx hotpink double;
+  border-bottom: 20rpx hotpink double;
+  margin-bottom: 20rpx;
+}

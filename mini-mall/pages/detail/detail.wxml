@@ -1,0 +1,27 @@
+<!--pages/detail/detail.wxml-->
+<w-navBar list="{{navText}}" bind:navClick="navClick" id="nav-bar"/>
+
+<scroll-view scroll-y style="height:calc(100vh - 196rpx); margin-top:80rpx"
+  scroll-top="{{toTop}}" scroll-with-animation bindscroll="scrolling"
+  scroll-into-view="{{themeId}}">
+
+  <w-swiper list="{{topImage}}" sw-class="height" id="swiper"/>
+
+  <w-dText goodsInfo="{{goodsInfo}}"/>
+
+  <w-dShop shopInfo="{{shopInfo}}"/>
+
+  <w-dImg detailInfo="{{detailInfo}}" bind:imgLoad="imgLoad"/>
+
+  <w-dTable params="{{detailParams}}" id="table"/>
+
+  <w-dComment detailComment="{{detailComment}}" id="comment"/>
+
+  <w-dRecomd detailRecomd="{{detailRecomd}}" id="recomd"/>
+
+  <w-backTop isHidden="{{isHidden}}" catch:_backTop="backTop" bt-class="bottom"/>
+</scroll-view>
+
+<w-dBottom catch:addCart="addCart"/>
+
+

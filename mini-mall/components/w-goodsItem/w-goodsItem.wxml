@@ -1,0 +1,11 @@
+<!--components/w-goodsItem/w-goodsItem.wxml-->
+<view class="goods-item" bindtap="toDetailPage">
+  <image src="{{goodsItem.image || goodsItem.show.img}}" class="goods-img"/>
+  <!-- goodsItem.show.img || goodsItem.image -->
+  <view class="goods-bottom">
+			<view class="goods-title">{{goodsItem.title}}</view>
+      <text class="goods-price">{{'¥'+goodsItem.price}}</text>
+      <image src="/assets/common/favor.png" class="cfav-img" mode="widthFix"/>
+			<text class="goods-cfav">{{goodsItem.cfav}}</text>
+  </view>
+</view>

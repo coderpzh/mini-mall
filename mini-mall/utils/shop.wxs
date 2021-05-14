@@ -1,0 +1,23 @@
+function sellFilter (x){
+  var y = x
+	if(x > 10000){
+	  y = (y / 10000).toFixed(1) +'万'
+	}
+	return y
+}
+function numColor(isBetter){
+  return isBetter ? 'color:red' : 'color:green'
+}
+function textColor(isBetter){
+  return isBetter ? 'background:red' : 'background:green'
+}
+function scoreText(isBetter){
+    return isBetter ? '高':'低'
+}
+
+module.exports = {
+  sellFilter:sellFilter,
+  numColor:numColor,
+  textColor:textColor,
+  scoreText:scoreText
+}

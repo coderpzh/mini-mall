@@ -1,0 +1,2 @@
+<!--pages/detail/childCnps/w-dRecomd/w-dRecomd.wxml-->
+<w-goodsList goodsList="{{detailRecomd}}"/>

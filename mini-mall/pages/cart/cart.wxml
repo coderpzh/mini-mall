@@ -1,0 +1,8 @@
+<!--pages/cart/cart.wxml-->
+<scroll-view scroll-y style="height:calc(100vh - 88rpx)">
+    <w-cartItem cartList="{{cartList}}" id="cartItem" bind:itemClick="itemClick"/>
+</scroll-view>
+
+<w-cartBottom bind:selectAll="selectAll" id="cartBottom"
+        totalPrice="{{totalPrice}}" cartLength="{{cartLength}}"/>
+

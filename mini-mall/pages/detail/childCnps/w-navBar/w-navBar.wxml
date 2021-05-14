@@ -1,0 +1,9 @@
+<!--pages/detail/childCnps/w-navBar/w-navBar.wxml-->
+<view class="navBar">
+  <view class="nav-bar">
+    <view wx:for="{{list}}" wx:key="index" bindtap="navClick" data-navIdex="{{index}}"
+          class="nav-item {{isActive == index ? 'active' : ''}}">
+      <text>{{item}}</text>
+    </view>
+  </view>
+</view>
